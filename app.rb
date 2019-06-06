@@ -6,4 +6,8 @@ class App < Sinatra::Base
     "My name is Savannah"
   end
   
+  get "/hometown" do
+    "My hometown is Fishers"
+  end
+  
 end
